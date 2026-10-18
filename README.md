@@ -56,6 +56,8 @@
 
 ## 协议研究现状
 
+完整的请求、响应、字段、枚举和兼容策略见 [PROTOCOL.md](PROTOCOL.md)。
+
 EigenStone 实机已确认三个主要请求：
 
 | 用途 | 请求形式 | 当前理解 |
@@ -102,6 +104,7 @@ EigenStone 实机已确认三个主要请求：
 ├── CONTRIBUTING.md    # 贡献方式和本地检查命令
 ├── SECURITY.md        # 安全问题报告方式
 ├── README.md          # 项目介绍与开发状态
+├── PROTOCOL.md        # 中弘 HTTP API 的请求、响应与已知差异
 ├── LICENSE            # GNU GPL v3
 ├── custom_components/
 │   └── zhong_hong_http/ # 可安装的 Home Assistant Integration
